@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blacksheep Strategy</title>
+</head>
+<body>
+
+    <section class="inputs">
+        <h1>Entradas estrategia Blacksheep</h1>
+
+        <form action="" onsubmit="return false">
+            <label for="pivot-price">Precio de pivote, Resistencia o Soporte:</label>
+            <input id="pivot-price" type="number">
+            <input type="submit" onclick="getEntriesPrices()" value="Submit">
+            <p class="error-message"></p>
+        </form>
+    </section>
+
+    <section class="results">
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./src/main.js"></script>
+    
+</body>
+</html>
